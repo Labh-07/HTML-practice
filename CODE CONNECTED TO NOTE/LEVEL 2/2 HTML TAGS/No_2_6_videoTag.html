@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>video tag : simple</h3>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"></video>
+    
+    <hr>
+
+    <h3>video tag with height width change :</h3>
+    <p>change width :</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"width="50px"></video>
+    <p>change height :</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"height="50 px"></video>
+    <p>change height and width :</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"height="50px"width="50px"></video>
+
+    <hr>
+
+    <h3>alt use :fault video</h3>
+    <video src="assets/video/2022-07-30 21-46-35.p4"alt="Video"height="160px"></video>
+
+    <hr>
+
+    <h3>Buit in controls : </h3>
+    <br>
+    <p>video tag with Controls :</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"
+    alt="video tag"
+    height="150px"
+    controls
+    ></video>
+
+    <br>
+
+    <p>video with controls+loop</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"
+    alt="video tag"
+    height="300px"
+    controls
+    autoplay></video>
+
+    <p>video with controls+loop+autoplay :</p>
+
+    <video src="assets/video/2022-07-30 21-46-35.mp4"
+    alt="video tag"
+    height="300px"
+    controls
+    loop
+    autoplay></video> <!--here auto play not working because in new update , because of user experience , autoplay not working here-->
+   
+    <br>
+
+    <p>video with controls+loop+autoplay+muted:</p>
+    <video src="assets/video/2022-07-30 21-46-35.mp4"
+    alt="video tag"
+    height="300px"
+    controls
+    loop
+    autoplay
+    muted/>  <!--also valid without closing tag-->
+</body>
+</html>

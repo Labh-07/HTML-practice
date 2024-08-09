@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/contact-me.php">
+        
+        <label for="username"><b>Username :</b></label>
+        <input type="text" id="username" placeholder="Email/mobilenumber/username" required="true" >
+       
+        <br>
+        <br>
+
+        <label for="user_password"><b>Password :</b></label>
+        <input type="password" id="user_password" placeholder="password">
+
+        <br>
+        <br>
+
+        <label for="date_1"><b>Date :   </b></label>
+        <input type="date" id="date_1">
+       
+        <br>
+        <br>
+
+        <label for="file">File :</label>
+        <input type="file" id="file">
+
+        <br>
+        <br>
+
+        <label for="color">Color :</label>
+        <input type="color" id="color">
+        
+        <br>
+        <br>
+
+        <label for="range">Price Range :</label>
+        <input type="range" id="range">
+
+        <br>
+        <br>
+
+        <label for="button_1"></label>
+        <input type="button" value="Exit" id="button_1">
+
+        <br><br>
+
+        <label for="Male">Male</label>
+        <input type="radio" id="Male" name="gender" value="Male"> <!--here when we submit the form then in this case in backenf value will pass-->
+<br>
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" value="Female">
+<br>
+        <label for="Other">Other</label>
+        <input type="radio" id="Other" name="gender" value="Other">
+         <!--If we put diffrent name of all radio button then we can select multiple-->
+         <!--If we put same name for all radio button in this case we can select any one radio button at a time-->
+        <!--If we connect the label and raadio button in this case if you click on the label (male text) then also button choosen-->
+        
+        <br><br>
+
+        <label for="C">C</label>
+        <input type="checkbox" id="C" name="Languges" value="C">
+        <br>
+        <label for="Java">Java</label>
+        <input type="checkbox" id="Java" name="Languges" value="Java">
+        <br>
+        <label for="Python">Python</label>
+        <input type="checkbox" id="Python" name="Languges" value="Python">
+        
+        <br><br>
+
+        <!--select is used for large number of radio sbutton then in this case we use select input-->
+        <label for="Country">Selecr your country :</label>
+        <select name="Country" id="Country">
+            <option value="India">India</option>
+            <option value="Uk">Uk</option>
+            <option value="Us">Us</option>
+            <option value="Other">Other</option>
+            
+        </select>
+
+        <br><br>
+
+        <textarea name="story" id="story" cols="30" rows="10">Write a feedback</textarea>
+        <br>
+        <br>
+        <br>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
